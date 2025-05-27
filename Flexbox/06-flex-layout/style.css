@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+  /* font-family: Roboto, sans-serif; */
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #022647;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 192px;
+  padding: 16px;
+}
+
+.left-links {
+  display: flex;
+  gap: 12px;
+}
+
+.right-links {
+  display: flex;
+  gap: 12px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.buttons {
+  display: flex;
+  margin: 12px;
+  gap: 12px;
+}
+
+.btn {
+  padding: 8px;
+  background-color: #022647;
+  color: goldenrod;
+}
+
+/* I could double up shared traits with .header, but I prefer this over the "clean" way */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 16px 32px 16px;
+  background-color: rgba(218, 165, 32, 0.75);
+  margin-top: 96px;
+}
+
+.footer a {
+  color: #022647;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: goldenrod;
+  /* wanted to add the outlines for fun */
+  /* -webkit-text-stroke: 0.2px goldenrod; */
+}
+
+img {
+  width: 600px;
+}
+
+button {
+  font-family: Roboto, sans-serif;
+  border: none;
+  border-radius: 8px;
+  background: #eee;
+  color: #343a40;
+  /* wanted to add the outlines for fun */
+  border: 1px solid goldenrod;
+}
+
+input {
+  background-color: #ced4da;
+  border: 2px solid goldenrod;
+  border-radius: 16px;
+  padding: 8px 24px;
+  width: 400px;
+}
